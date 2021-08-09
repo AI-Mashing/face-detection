@@ -1,30 +1,28 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![webcam](https://www.onedirect.it/media/catalog/product/cache/477fa443041657008b9ac3d35b8e06b7/n/e/new_project_42_.jpg)
 
     
 # Face Detection
 
-A brief description of what this project does and who it's for
+This Python project execute commands to open the webcam.
 
 
 ## Project Description
 
- - 
- - 
-## Demo
-
-![Logo]()
+- Python3 
+- Computer Vision -> openCV
+ 
 
 
   
 ## Installation / Usage
 
-Install my-project with npm
+Install face-detection with pip
 
 ```bash
   pip install requirements.txt
-  cd my-project
-  python3 run.py
+  cd face-detection
+  python face_eye.py
 ```
     
 ## Authors
