@@ -10,7 +10,7 @@ eye = cv2.CascadeClassifier('haarcascade_eye.xml')
 # image = ps.putBText(image,time_text,text_offset_x=image.shape[1]-170,text_offset_y=20,vspace=10,hspace=10, font_scale=1.0,background_RGB=(228,225,222),text_RGB=(1,1,1))
 
 #capture video
-capt_video = cv2.VideoCapture(1)
+capt_video = cv2.VideoCapture(0)
 
 while True:
     ret, img = capt_video.read()
